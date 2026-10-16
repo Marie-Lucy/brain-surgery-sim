@@ -1,0 +1,21 @@
+{
+  "name": "brain-surgery-sim",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Educational browser simulator of IC-PC aneurysm clipping (pterional transsylvian approach). Not for clinical use.",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "postprocessing": "^6.39.5",
+    "three": "^0.186.1"
+  },
+  "devDependencies": {
+    "@types/three": "^0.186.0",
+    "typescript": "^5.9.3",
+    "vite": "^7.3.7"
+  }
+}
